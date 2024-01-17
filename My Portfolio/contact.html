@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial scale-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/512px-536-bread.svg.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+</head>
+
+<body>
+    <header class="page-header">
+        <!--NavBar-->
+        <nav role="menubar" class="navigation-list page-header-item">
+            <ul>
+                <li role="presentation">
+                    <a href="./index.html" role="menuitem">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="./about.html" role="menuitem">About Me</a>
+                </li>
+                <li role="presentation">
+                    <a href="./work.html" role="menuitem">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="./contact.html" role="menuitem">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact-section">
+        <section class="form-section">
+            <h2>Send Me a Message:</h2>
+            <form action="" method="post" id="contact-form" role="form">
+                <div>
+                    <label for="email" class="standard-label">Email</label>
+                    <input type="email" id="email" required />
+                </div>
+
+                <div>
+                    <label for="tel" class="standard-label">Phone Number</label>
+                    <input type="tel" id="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required />
+                </div>
+
+                <div>
+                    <label for="msg" class="standard-label">Text</label>
+                    <textarea name="" id="msg" maxlength="100" required></textarea>
+                </div>
+
+                <input type="submit" value="submit" />
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>Find Me On:</p>
+
+        <div class="social-media">
+
+            <img src="img/github_icon.svg" alt="Github">
+            <img src="img/linkedin_icon.svg" alt="Linkedin">
+            <img src="img/twitter_icon.svg" alt="Thread">
+
+        </div>
+
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
